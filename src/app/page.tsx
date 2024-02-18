@@ -22,7 +22,7 @@ export default function Home() {
         const apiKey = process.env.NEXT_PUBLIC_API_KEY;
         // console.log(apiKey);
         const response = await axios.get(
-          "http://api.weatherapi.com/v1/current.json?",
+          "https://api.weatherapi.com/v1/current.json?",
           {
             params: {
               key: apiKey,
